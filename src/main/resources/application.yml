@@ -1,0 +1,11 @@
+#生产环境
+server:
+  servlet:
+    path: /api/v1
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://123.207.93.53:3306/wechat?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: gy123456
